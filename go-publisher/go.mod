@@ -1,4 +1,4 @@
-module go-consumer
+module go-publisher
 
 go 1.20
 
