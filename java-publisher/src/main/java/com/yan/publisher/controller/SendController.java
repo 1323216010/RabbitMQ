@@ -15,7 +15,7 @@ public class SendController {
     private RabbitTemplate rabbitTemplate;
 
     @GetMapping("/send")
-    public void list() {
+    public void send() {
         String queue = "simple.queue";
         // 消息
         String msg = "hello, spring amqp!";
