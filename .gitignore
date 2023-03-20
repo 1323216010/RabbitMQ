@@ -1,1 +1,4 @@
 /java-consumer/.idea/
+/java-publisher/target/
+/java-publisher/.idea/
+/java-consumer/target/
