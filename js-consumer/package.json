@@ -1,0 +1,11 @@
+{
+  "name": "js-consumer",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
