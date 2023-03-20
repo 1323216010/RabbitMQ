@@ -6,3 +6,4 @@
 /js-publisher/package-lock.json
 /js-consumer/node_modules/
 /js-consumer/package-lock.json
+/go-consumer/.idea/
