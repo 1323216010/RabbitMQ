@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Listener {
 
-    @RabbitListener(queues = "simple.queue")
+    @RabbitListener(queues = "simple")
     public void listenSimpleQueueMessage(String msg) throws InterruptedException {
         System.out.println("消费者接收到消息：【" + msg + "】");
     }
